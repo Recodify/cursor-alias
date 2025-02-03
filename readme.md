@@ -7,7 +7,7 @@ Cursor has a built in update mechanism that means the AppImage file name will ch
 
 ## Installation
 
-This will add a `cursor` alias to your `.bashrc` file. Remember to reload your `.bashrc` file.
+This will add a `cursor` alias to your `.bashrc` file.
 
 Note: After installation, remember to reload your `.bashrc` file: `source ~/.bashrc`
 
