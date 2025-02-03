@@ -17,7 +17,7 @@ Note: After installation, remember to reload your `.bashrc` file: `source ~/.bas
 curl -sSL https://raw.githubusercontent.com/recodify/cursor-alias/main/install.sh | bash -s -- "path/to/dir/with/cursorAppImage"
 ```
 
-for example:  `curl -sSL https://raw.githubusercontent.com/recodify/cursor-alias/main/install.sh | bash -s -- "~/tools"`
+e.g `curl -sSL https://raw.githubusercontent.com/recodify/cursor-alias/main/install.sh | bash -s -- "~/tools"`
 
 
 ### Method 2: Clone repo and install
@@ -28,8 +28,6 @@ cd cursor-alias
 chmod +x install.sh
 ./install.sh "path/to/dir/with/cursorAppImage"
 ```
-
-
 
 ## Usage
 
