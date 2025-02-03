@@ -7,13 +7,20 @@ Cursor has a built in update mechanism that means the AppImage file name will ch
 
 ## Installation
 
+This will add a `cursor` alias to your `.bashrc` file. Remember to reload your `.bashrc` file.
+
+Note: After installation, remember to reload your `.bashrc` file: `source ~/.bashrc`
+
+
+### Method 1: Single line curl install
 ```bash
 curl -sSL https://raw.githubusercontent.com/recodify/cursor-alias/main/install.sh | bash -s -- "path/to/dir/with/cursorAppImage"
-# e.g.
-curl -sSL https://raw.githubusercontent.com/recodify/cursor-alias/main/install.sh | bash -s -- "~/tools"
 ```
 
-or
+for example:  `curl -sSL https://raw.githubusercontent.com/recodify/cursor-alias/main/install.sh | bash -s -- "~/tools"`
+
+
+### Method 2: Clone repo and install
 
 ```bash
 git clone https://github.com/recodify/cursor-alias.git
@@ -22,11 +29,7 @@ chmod +x install.sh
 ./install.sh "path/to/dir/with/cursorAppImage"
 ```
 
-NOTE: This will add a `cursor` alias to your `.bashrc` file. Remember to reload your `.bashrc` file.
 
-```bash
-source ~/.bashrc
-```
 
 ## Usage
 
